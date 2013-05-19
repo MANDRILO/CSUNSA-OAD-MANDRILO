@@ -23,9 +23,9 @@ public:
     void insert_X(NodeE *Node_new,NodeE *&N_Father);
     void insert_Y(NodeE *Node_new,NodeE *&N_Father);
     void insertCell(Expression *Dato,num x_coord,num y_coord);
-    bool delete_X(NodeE *&N_);
-    bool delete_Y();
-    void deleteCell();
+    bool delete_X(NodeE *&N_Father);
+    bool delete_Y(NodeE *&N_Father);
+    void deleteCell(num axis_x,num axis_y);
 
 };
 

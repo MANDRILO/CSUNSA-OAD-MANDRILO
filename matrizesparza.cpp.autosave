@@ -52,5 +52,13 @@ void MatrizEsparza::insert_Y(NodeE *Node_new,NodeE *&N_Father)
     }
     insert_Y(Node_new,N_Father->nextRight);
 }
+/*ELIMNA UN NODO TAN SOLO RECIBE LAS COORDENAS DE DICHO NODO
+ */
+void MatrizEsparza::deleteCell(num axis_x, num axis_y)
+{
+    
+}
+
+    
 
 
