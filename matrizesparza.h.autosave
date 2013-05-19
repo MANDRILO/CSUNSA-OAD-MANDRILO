@@ -23,7 +23,7 @@ public:
     void insert_X(NodeE *Node_new,NodeE *&N_Father);
     void insert_Y(NodeE *Node_new,NodeE *&N_Father);
     void insertCell(Expression *Dato,num x_coord,num y_coord);
-    bool delete_X(num x_axis,num y_axis);
+    bool delete_X(NodeE *&N_);
     bool delete_Y();
     void deleteCell();
 
