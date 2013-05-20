@@ -23,9 +23,10 @@ public:
     void insert_X(NodeE *Node_new,NodeE *&N_Father);
     void insert_Y(NodeE *Node_new,NodeE *&N_Father);
     void insertCell(Expression *Dato,num x_coord,num y_coord);
-    bool delete_X(num x_axis,num y_axis);
-    bool delete_Y();
-    void deleteCell();
+    bool delete_X(NodeE *&N_Father,num x);
+    bool delete_Y(NodeE *&N_Father, num y);
+    bool deleteCell(num axis_x,num axis_y);
+    void set_value(dato_cadena,num axis_x,num axis_y);
 
 };
 
